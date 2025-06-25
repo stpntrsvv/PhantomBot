@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43374436-2245-4259-b0c4-72d955876cad" name="Changes" comment="Базовая база">
-      <change afterPath="$PROJECT_DIR$/chat.py" afterDir="false" />
+    <list default="true" id="43374436-2245-4259-b0c4-72d955876cad" name="Changes" comment="Добавлен класс Chat, полностью переделан main. Реализовано меню и рабочий чат с оператором">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stl_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/stl_script.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749914046354</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавлен класс Chat, полностью переделан main. Реализовано меню и рабочий чат с оператором">
+      <option name="closed" value="true" />
+      <created>1750847969560</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750847969561</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Базовая база" />
-    <option name="LAST_COMMIT_MESSAGE" value="Базовая база" />
+    <MESSAGE value="Добавлен класс Chat, полностью переделан main. Реализовано меню и рабочий чат с оператором" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен класс Chat, полностью переделан main. Реализовано меню и рабочий чат с оператором" />
   </component>
 </project>

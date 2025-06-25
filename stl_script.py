@@ -21,7 +21,6 @@ directory_number = str(input())
 target_dir = os.path.join("example_stlfiles", str(directory_number))
 files = find_stl_files(target_dir)
 
-
 """читаем входной файл"""
 file_path = os.path.join(target_dir, "soprfile")
 with open(file_path, "r") as file:
