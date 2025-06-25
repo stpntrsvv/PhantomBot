@@ -17,7 +17,15 @@ def find_stl_files(directory):
 
 def stl_script(directory_number, newsize):
     """назначаем папку и спрашиваем доп. параметры"""
-    newsize = float(newsize)
+    if isinstance(newsize, (int, float)):
+        newsize = float(newsize)
+    elif str(newsize).replace('.', '', 1).isdigit():
+        newsize = float(newsize)
+    else:
+        newsize = 0  # Значение по умолчанию при ошибке
+
+    if newsize <= 0:
+        newsize = 0  # Будет использована высота из файла
     target_dir = os.path.join("example_stlfiles", str(directory_number))
     files = find_stl_files(target_dir)
 

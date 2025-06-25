@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43374436-2245-4259-b0c4-72d955876cad" name="Changes" comment="Добавлен класс Chat, полностью переделан main. Реализовано меню и рабочий чат с оператором">
+    <list default="true" id="43374436-2245-4259-b0c4-72d955876cad" name="Changes" comment="Добавлен каталог, обработка заказов от пользователя, а также расширен класс Chat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_stlfiles/1/soprfile" beforeDir="false" afterPath="$PROJECT_DIR$/example_stlfiles/1/soprfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_stlfiles/2/output" beforeDir="false" afterPath="$PROJECT_DIR$/example_stlfiles/2/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_stlfiles/2/soprfile" beforeDir="false" afterPath="$PROJECT_DIR$/example_stlfiles/2/soprfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stl_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/stl_script.py" afterDir="false" />
     </list>
@@ -49,7 +51,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.chat.executor": "Run",
+    "Python.classfigure.executor": "Run",
+    "Python.classresin.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.stl_script.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -86,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750847969561</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавлен каталог, обработка заказов от пользователя, а также расширен класс Chat">
+      <option name="closed" value="true" />
+      <created>1750878722211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750878722211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Базовая база" />
     <MESSAGE value="Добавлен класс Chat, полностью переделан main. Реализовано меню и рабочий чат с оператором" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен класс Chat, полностью переделан main. Реализовано меню и рабочий чат с оператором" />
+    <MESSAGE value="Добавлен каталог, обработка заказов от пользователя, а также расширен класс Chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен каталог, обработка заказов от пользователя, а также расширен класс Chat" />
   </component>
 </project>
