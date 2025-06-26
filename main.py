@@ -109,10 +109,10 @@ def handle_size_input(message):
         user_data['new_price'] = new_price
 
         myChat.bot.send_message(user_id, f"Теперь цена вашей фигурки - {new_price} руб.", reply_markup=product)
+
+        del user_data['awaiting_size']
     else:
         myChat.bot.send_message(user_id, "Пожалуйста, введите число (например: 10.5)")
-
-    del user_data['awaiting_size']
 
 
 if __name__ == '__main__':
